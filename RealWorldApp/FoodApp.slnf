@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "RealWorldApp.sln",
+    "projects": [
+      "RealWorldApp\\RealWorldApp.Android\\RealWorldApp.Android.csproj",
+      "RealWorldApp\\RealWorldApp.iOS\\RealWorldApp.iOS.csproj",
+      "RealWorldApp\\RealWorldApp\\RealWorldApp.csproj"
+    ]
+  }
+}
