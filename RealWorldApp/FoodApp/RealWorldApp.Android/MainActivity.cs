@@ -6,6 +6,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android;
+using FoodApp.Droid;
+using Xamarin.Essentials;
+using Xamarin.Forms.Platform.Android;
 
 namespace FoodApp.Droid
 {
@@ -14,8 +18,8 @@ namespace FoodApp.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
+            TabLayoutResource = FoodApp.Droid.Resource.Layout.Tabbar;
+            ToolbarResource = FoodApp.Droid.Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
 
